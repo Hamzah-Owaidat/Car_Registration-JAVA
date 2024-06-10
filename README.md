@@ -26,15 +26,15 @@ The Car Registration Application is a Java Swing-based GUI application that allo
 2. Create a database named `carregistration`:
    ```sql
    CREATE DATABASE carregistration;
-3. Create a Table named `cars`:
+3. Create a table named `cars`:
    ```sql
    CREATE TABLE cars (
-    id VARCHAR(50) PRIMARY KEY,
-    name VARCHAR(100),
-    year VARCHAR(4),
-    model VARCHAR(100),
-    registered CHAR(1),
-    newCar INT
+  id VARCHAR(50) PRIMARY KEY,
+  name VARCHAR(100),
+  year VARCHAR(4),
+  model VARCHAR(100),
+  registered CHAR(1),
+  newCar INT
 );
 
    
