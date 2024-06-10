@@ -260,7 +260,16 @@ public class CarRegistration extends JFrame implements ActionListener {
             }
             
         } else if (e.getSource().equals(clear)){
-            System.exit(0);
+            carNumberField.setText(null);
+            modelField.setText(null);
+            nameField.setText(null);
+            yearOptions.setSelectedIndex(0);
+            registred.setSelected(false); 
+            ButtonGroup grp = new ButtonGroup();
+            grp.add(yes); 
+            grp.add(no);
+            grp.clearSelection();
+            
         }
     }
 }
